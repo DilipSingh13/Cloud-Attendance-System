@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@drawable/admin_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rEdit_First"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lEdit_First"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lLast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextURN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Number"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lMob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextImei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/l_imei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Device Imei"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleDrawable="@drawable/icon_selector"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingRight="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="26sp"
+        android:text="Add Now"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_blue"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

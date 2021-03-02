@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cloud Attendance</string>
+    <string name="live_support"><u>Live Support</u></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+
+    <string name="about_us"><![CDATA[This application is developed by Dilip Singh student of B.Tech in Cloud Technology & Information Security at Ajeenkya D Y Patil University. For any kind of query kindly reach us via email or using below Contact Developer option.]]></string>
+</resources>

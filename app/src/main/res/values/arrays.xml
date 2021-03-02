@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Admin_Titles">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Add Users</item>
+        <item>Remove Users</item>
+        <item>Block/Unblock Users</item>
+        <item>View Attendance</item>
+        <item>Upload Timetable</item>
+        <item>Upload Fee Structure</item>
+        <item>Feedback</item>
+        <item />
+        <item>About</item>
+        <item>Share</item>
+        <item>Reach Us</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="Admin_Icons">
+        <item>@drawable/ic_home_purple_24dp</item>
+        <item>@drawable/ic_person_purple_24dp</item>
+        <item>@drawable/ic_add_user_purple_24dp</item>
+        <item>@drawable/ic_delete_pruple_24dp</item>
+        <item>@drawable/ic_block_purple_24dp</item>
+        <item>@drawable/ic_view_attendance_24dp</item>
+        <item>@drawable/ic_cloud_upload_purple_24dp</item>
+        <item>@drawable/ic_fee_icon</item>
+        <item>@drawable/ic_feedback</item>
+        <item>0</item>
+        <item>@drawable/ic_aboutus_purple_24dp</item>
+        <item>@drawable/ic_share_purple_24dp</item>
+        <item>@drawable/ic_email_black_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_exit</item>
+    </array>
+
+    <string-array name="Titles">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Mark Manual Attendance</item>
+        <item>View Attendance</item>
+        <item>Time Table</item>
+        <item>Exam Duty</item>
+        <item />
+        <item>About</item>
+        <item>Share</item>
+        <item>Reach Us</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="Icons">
+        <item>@drawable/ic_home_purple_24dp</item>
+        <item>@drawable/ic_person_purple_24dp</item>
+        <item>@drawable/ic_mark_attendance_24dp</item>
+        <item>@drawable/ic_view_attendance_24dp</item>
+        <item>@drawable/ic_time_table_purple_24dp</item>
+        <item>@drawable/ic_exam_seat_purple_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_aboutus_purple_24dp</item>
+        <item>@drawable/ic_share_purple_24dp</item>
+        <item>@drawable/ic_email_black_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_exit</item>
+    </array>
+
+    <string-array name="StudentTitles">
+        <item>Home</item>
+        <item>My Account</item>
+        <item>Time Table</item>
+        <item>Faculty Feedback</item>
+        <item>Exam Seating Arrangement</item>
+        <item>View Fees Structure</item>
+        <item />
+        <item>About</item>
+        <item>Share</item>
+        <item>Reach Us</item>
+        <item />
+        <item>Exit</item>
+    </string-array>
+
+    <array name="StudentIcons">
+        <item>@drawable/ic_home_purple_24dp</item>
+        <item>@drawable/ic_person_purple_24dp</item>
+        <item>@drawable/ic_time_table_purple_24dp</item>
+        <item>@drawable/ic_feedback</item>
+        <item>@drawable/ic_exam_seat_purple_24dp</item>
+        <item>@drawable/ic_wallet_purple_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_aboutus_purple_24dp</item>
+        <item>@drawable/ic_share_purple_24dp</item>
+        <item>@drawable/ic_email_black_24dp</item>
+        <item>0</item>
+        <item>@drawable/ic_exit</item>
+    </array>
+
+</resources>
